@@ -12,7 +12,7 @@ This is an app to load test some endpoints of 'Dog API' web site. Uses **Locust*
 `locust.conf` used to configure the run. Following parameters in place at the moment, more can be added:
 * **General**
   * `locustfile` - **locustfile.py** location
-  * `host` - test host, e.g. '*http://example.com*'
+  * `host` - host under test, e.g. '*http://example.com*'
 * **User settings**
   * `users` - amount of users to be spawned, e.g. '*10*'
   * `hatch-rate` - user hatching(spawn) rate in seconds, e.g. '*5*'
